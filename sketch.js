@@ -6,6 +6,10 @@ function setup() {
   createCanvas(800, 800);
   background(30);
 
+  
+}
+
+function draw() {
   for(let i = 0; i < rows;i++){
     for(let j = 0; j < cols; i++){
       const red = random(255);
@@ -17,4 +21,5 @@ function setup() {
       rect(i,j,size)
     }
   }
+
 }
